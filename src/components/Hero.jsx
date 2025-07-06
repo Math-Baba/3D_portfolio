@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
+import { AvatarCanvas } from './canvas';
+
 
 const Hero = () => {
     return(
@@ -23,20 +23,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <ComputersCanvas />
-
-            <div className='absolute xs:bottom-4 bottom-16 w-full flex justify-center items-center'>
-                <a href="#about">
-                    <div className='w-[20px] h-[40px] rounded-2xl border-2 border-secondary flex justify-center items-start p-1'>
-                    <motion.div
-                        animate={{ y: [0, 16, 0] }}
-                        transition={{ duration: 1.5, repeat: Infinity, repeatType: 'loop' }}
-                        className="w-2 h-2 rounded-full bg-secondary mb-1"
-                    />
-                    </div>
-                </a>
-            </div>
-
+            <AvatarCanvas/>
 
         </section>
     )

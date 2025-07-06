@@ -8,7 +8,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import Loader from "./Loader";
-import DynamicIslandNavbar from "./DynamicIslandNavbar"
+import DynamicIslandNavbar from "./DynamicIslandNavbar";
 
 
 export {
