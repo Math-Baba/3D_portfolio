@@ -71,11 +71,11 @@ useGLTF.preload("/animations/Standing Greeting.glb");
 export default function AvatarCanvas() {
   return (
     <div
-      style={{
-        position: "absolute",
-        inset: 0,
-        zIndex: 10,
-      }}
+      className="
+        absolute inset-0 z-10
+        top-20       
+        sm:top-0      
+      "
     >
    
       <Canvas camera={{ position: [0, 1.6, 2], fov: 20 }}>

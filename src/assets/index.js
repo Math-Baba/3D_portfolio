@@ -19,26 +19,51 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import C from "./tech/C.png";
+import Cplus from "./tech/C_plus.png";
+import threejs from "./tech/threejs.png";
+import PHP from "./tech/PHP.png";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import SQL from "./tech/SQL.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import ACENSI from "./company/ACENSI.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.png";
+import webcup from "./webcup.png";
+import NAO from "./NAO.jpg"
 
 import gmail from "./gmail.png";
 import phone from "./phone.png";
-import linkedin from "./linkedin.png"
+import linkedin from "./linkedin.png";
 
-import favicon from "./favicon.svg"
+import favicon from "./favicon.svg";
+import code from "./code.png";
+import avatar from "./avatar.svg";
+
+import IA from "./IA.png";
+import robot from "./robot.png";
+import software from "./software.png";
+import MB from "./MB.png"
 
 export {
   logo,
+  ACENSI,
+  MB,
   favicon,
+  code,
+  avatar,
   backend,
+  webcup,
+  NAO,
+  portfolio,
   creator,
   mobile,
   web,
@@ -51,6 +76,13 @@ export {
   git,
   html,
   javascript,
+  C,
+  SQL,
+  Cplus,
+  python,
+  java,
+  threejs,
+  PHP,
   mongodb,
   nodejs,
   reactjs,
@@ -66,5 +98,8 @@ export {
   tripguide,
   phone,
   gmail,
-  linkedin
+  linkedin,
+  robot,
+  IA,
+  software
 };

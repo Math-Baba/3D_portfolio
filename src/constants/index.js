@@ -1,3 +1,4 @@
+import js from "@eslint/js";
 import {
   mobile,
   backend,
@@ -26,43 +27,53 @@ import {
   gmail,
   phone,
   linkedin,
+  software,
+  IA,
+  robot,
+  ACENSI,
+  C,
+  Cplus,
+  python,
+  java,
+  SQL,
+  threejs,
+  portfolio,
+  PHP,
+  webcup,
+  NAO,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "A propos",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experiences",
   },
   {
     id: "project",
-    title: "Project",
+    title: "Projets",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contacts",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Développement logiciel",
+    icon: software,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Intelligence Artificielle",
+    icon: IA,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "Robotique",
+    icon: robot,
   },
 ];
 
@@ -84,90 +95,40 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "C",
+    icon: C,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "C++",
+    icon: Cplus,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "python",
+    icon: python,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "java",
+    icon: java,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "SQL",
+    icon: SQL,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Stagiaire en Développement FullStack",
+    company_name: "ACENSI Mauritius Ltd",
+    icon: ACENSI,
+    iconBg: "#16263b",
+    date: "Juin 2025 - Juillet 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaboration avec une équipe composé de 7 stagiaires, un tech lead et une cheffe de projet",
+      "Participation dans la conception d'un logiciel CRM ( Customer Relationship Manager) sur la partie Campaign",
+      "Développement en Spring boot pour la partie Back-end (CRUD, API Rest, Search & Filter) + test avec Postman",
+      "Développement en Angular, sur un template établi, pour la partie front-end (Intégration du CRUD, Search, Filter & Ajout de Export as PDF/Excel)",
+      "Contribution et gestion de version avec Git/Github"
     ],
   },
 ];
@@ -201,9 +162,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portefolio 3D",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Ce projet est un portfolio 3D réalisé avec React et Three.js. Je l’ai développé en suivant des tutoriels YouTube, pour approfondir mes connaissances de React tout en créant un site web moderne intégrant des objets 3D interactifs.",
     tags: [
       {
         id: 1,
@@ -217,60 +178,65 @@ const projects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: typescript,
+        name: 'Three Fiber',
+        path: threejs,
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/Math-Baba/3D_portfolio",
   },
   {
-    name: "Job IT",
+    name: "TheEnd.Page",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "TheEnd.Page est un site web développé en équipe lors du hackathon de la 24h By Webcup et qui nous a valu la 2e place du concous régional.",
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: reactjs,
+        name: 'HTML',
+        path: html,
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: tailwind,
+        name: 'CSS',
+        path: css,
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: typescript,
+        name: 'JavaScript',
+        path: javascript,
+      },
+      {
+        id: 4,
+        name: 'PHP',
+        path: PHP,
+      },
+      {
+        id: 5,
+        name: 'SQL',
+        path: SQL,
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: webcup,
+    source_code_link: "https://github.com/Math-Baba/The_End_WebCup2025_Website",
   },
   {
-    name: "Trip Guide",
+    name: "Qui suis-je ?",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Ce projet est un prototype visant intégrer un robot humanoïde, Nao, dans un cadre éducatif pour sensibiliser les enfants de 5 à 10 ans à la biodiversité marine de l’île Maurice. ",
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: reactjs,
+        name: 'python',
+        path: python,
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: tailwind,
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: typescript,
+        name: 'SQL',
+        path: SQL,
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: NAO,
+    source_code_link: "https://github.com/Math-Baba/Projet_Robotique_Nao",
   },
 ];
 

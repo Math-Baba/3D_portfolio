@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { motion } from "framer-motion";
-import { favicon } from "../assets";
+import { code } from "../assets";
 import { navLinks } from "../constants";
 
 // Composant bouton pour la Navbar
@@ -126,7 +126,7 @@ export default function DynamicIslandNavbar() {
         className="min-w-[40px] min-h-[40px] rounded-full gap-2 bg-slate-50 flex items-center justify-center focus:outline-none"
         aria-label="Toggle menu"
       >
-        <img src={favicon} alt="logo" width={24} height={24} />
+        <img src={code} alt="logo" width={24} height={24} />
       </button>
 
       {/* Liste des liens de navigation */}

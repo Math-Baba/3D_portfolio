@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, DynamicIslandNavbar } from './components';
+import {About, Experience, Hero, Tech, Works, StarsCanvas, DynamicIslandNavbar } from './components';
 import ContactDetails from "./components/ContactDetails";
 
 

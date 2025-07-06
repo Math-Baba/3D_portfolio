@@ -46,13 +46,13 @@ const Works = () => {
     return(
         <>
             <motion.div variants={textVariant()}>
-                <p className={`${styles.sectionSubText} mt-4`}>My Work</p>         
-                <h2 className={`${styles.sectionHeadText} mt-4`}>Projects.</h2>
+                <p className={`${styles.sectionSubText} mt-4`}>Ce que j'ai pu accomplir</p>         
+                <h2 className={`${styles.sectionHeadText} mt-4`}>Mes projets.</h2>
             </motion.div>
 
             <div className='w-full flex'>
                 <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum iusto quod deleniti corporis dolorum quis ut numquam fugiat mollitia tempore itaque, laboriosam nihil odio saepe voluptatibus iure, doloribus repellat id.
+                    Créer des projets, c’est ma manière préférée d’apprendre. Que ce soit un site web, un robot programmé ou des expérimentations autour de l’intelligence artificielle, chaque réalisation représente une idée concrétisée et une étape dans mon évolution. Voici quelques-unes de mes créations personnelles et collaboratives.
                 </motion.p>
             </div>
 
