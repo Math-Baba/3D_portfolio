@@ -73,7 +73,7 @@ export default function AvatarCanvas() {
     <div
       className="
         absolute inset-0 z-10
-        top-20       
+        top-80       
         sm:top-0      
       "
     >
