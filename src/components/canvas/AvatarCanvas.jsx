@@ -7,7 +7,7 @@ import Loader from "../Loader";
 /* --------------------- Avatar + Animation --------------------- */
 function AvatarModel() {
   /* 1. Avatar GLB */
-  const avatarGltf = useGLTF("/686a005f8bb684540fceb447(2).glb");
+  const avatarGltf = useGLTF("/avatar_model-optimized.glb");
 
   /* 2. Animation GLB (Mixamo Without‑Skin converti glb) */
   const greetingGltf = useGLTF("/animations/Standing Greeting.glb");
@@ -56,7 +56,7 @@ function AvatarModel() {
       ref={group}
       scale={1.34}
       position={[0, -3, 0]}
-      rotation={[-0.5, 0, 0]} /* face la caméra */
+      rotation={[-0.5, 0, 0]} 
       dispose={null}
     >
       <primitive object={avatarGltf.scene} />
@@ -64,7 +64,7 @@ function AvatarModel() {
   );
 }
 
-useGLTF.preload("/686a005f8bb684540fceb447.glb");
+useGLTF.preload("/avatar_model-optimized.glb");
 useGLTF.preload("/animations/Standing Greeting.glb");
 
 /* ------------------------- Canvas wrapper ------------------------- */
