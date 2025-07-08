@@ -40,7 +40,14 @@ import {
   portfolio,
   PHP,
   webcup,
+  postman,
   NAO,
+  arduino,
+  ROS2,
+  springboot,
+  MySQL,
+  Postgre,
+  staruml,
 } from "../assets";
 
 export const navLinks = [
@@ -91,6 +98,10 @@ const technologies = [
     icon: javascript,
   },
   {
+    name: "PHP",
+    icon: PHP,
+  },
+  {
     name: "TypeScript",
     icon: typescript,
   },
@@ -114,6 +125,50 @@ const technologies = [
     name: "SQL",
     icon: SQL,
   },
+  {
+    name: "Reactjs",
+    icon: reactjs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "github",
+    icon: github,
+  },
+  {
+    name: "arduino",
+    icon: arduino,
+  },
+  {
+    name: "ROS2",
+    icon: ROS2,
+  },
+  {
+    name: "spring boot",
+    icon: springboot,
+  },
+  {
+    name: "MySQL",
+    icon: MySQL,
+  },
+  {
+    name: "Postgre",
+    icon: Postgre,
+  },
+  {
+    name: "github",
+    icon: github,
+  },
+  {
+    name: "postman",
+    icon: postman,
+  },
+  {
+    name: "star UML",
+    icon: staruml,
+  }
 ];
 
 const experiences = [

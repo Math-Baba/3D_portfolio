@@ -34,7 +34,7 @@ const easeInOutCubic = (x) =>
 
 const ProfileCardComponent = ({
   avatarUrl = "./Moi.png",
-  iconUrl = "<Placeholder for icon URL>",
+  iconUrl = "./MB.png",
   grainUrl = "<Placeholder for grain URL>",
   behindGradient,
   innerGradient,
@@ -42,11 +42,11 @@ const ProfileCardComponent = ({
   className = "",
   enableTilt = true,
   miniAvatarUrl,
-  name = "Javi A. Torres",
-  title = "Software Engineer",
-  handle = "javicodes",
+  name = "Mathieu Baba",
+  title = "Etudiant L3",
+  handle = "MB",
   status = "Online",
-  contactText = "Contact",
+  contactText = "Me contacter",
   showUserInfo = true,
   onContactClick,
 }) => {
@@ -265,7 +265,7 @@ const ProfileCardComponent = ({
                 <div className="pc-user-details">
                   <div className="pc-mini-avatar">
                     <img
-                      src={miniAvatarUrl || avatarUrl}
+                      src="./MB.png"
                       alt={`${name || "User"} mini avatar`}
                       loading="lazy"
                       onError={(e) => {

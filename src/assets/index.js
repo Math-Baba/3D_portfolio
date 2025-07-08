@@ -26,6 +26,13 @@ import PHP from "./tech/PHP.png";
 import python from "./tech/python.png";
 import java from "./tech/java.png";
 import SQL from "./tech/SQL.png";
+import springboot from "./tech/springboot.png";
+import arduino from "./tech/Arduino.png";
+import MySQL from "./tech/MySQL.png";
+import Postgre from "./tech/Postgre.png";
+import staruml from "./tech/staruml.png";
+import ROS2 from "./tech/ROS2.png";
+import postman from "./tech/postman.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -68,6 +75,13 @@ export {
   mobile,
   web,
   github,
+  springboot,
+  arduino,
+  postman,
+  Postgre,
+  MySQL,
+  staruml,
+  ROS2,
   menu,
   close,
   css,

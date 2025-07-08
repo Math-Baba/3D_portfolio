@@ -3,6 +3,7 @@ import BallCanvas from "./Ball";
 import ComputersCanvas from "./Computers";
 import StarsCanvas from "./Stars";
 import AvatarCanvas from "./AvatarCanvas";
-import ProfileCard from "./ProfileCard"
+import ProfileCard from "./ProfileCard";
+import Orb from "./Orb";
 
-export { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas, AvatarCanvas, ProfileCard };
+export { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas, AvatarCanvas, ProfileCard, Orb };
