@@ -158,10 +158,6 @@ const technologies = [
     icon: Postgre,
   },
   {
-    name: "github",
-    icon: github,
-  },
-  {
     name: "postman",
     icon: postman,
   },
