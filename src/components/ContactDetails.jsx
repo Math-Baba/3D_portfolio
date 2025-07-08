@@ -4,6 +4,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { links } from "../constants";
+import { ProfileCard } from "./canvas";
 
 const ContactCard = ({ logo, name }) => (
   <div className="flex items-center gap-4 bg-primary rounded-xl shadow-lg px-5 py-4 mt-3">
@@ -25,7 +26,9 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Pour plus d'informations à mon sujet</p>
+        <p className={styles.sectionSubText}>
+          Pour plus d'informations à mon sujet
+        </p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         {links.map((link, index) => (
           <ContactCard key={`link-${index}`} index={index} {...link} />
@@ -42,9 +45,20 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="flex-[0.75] xl:h-auto md:h-[550px] h-[350px] flex justify-center items-center"
       >
-        <EarthCanvas />
+        <ProfileCard
+          style={{ width: '100%', maxWidth: '400px', height: 'auto' }}
+          name="Mathieu Baba"
+          title="Etudiant en L3"
+          handle="MB"
+          status="Online"
+          contactText="Me contacter"
+          avatarUrl="/Moi.png"
+          showUserInfo={true}
+          enableTilt={true}
+          onContactClick={() => console.log("Contact clicked")}
+        />
       </motion.div>
     </div>
   );
