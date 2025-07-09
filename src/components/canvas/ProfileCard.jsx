@@ -34,7 +34,7 @@ const easeInOutCubic = (x) =>
 
 const ProfileCardComponent = ({
   avatarUrl = "./Moi.png",
-  iconUrl = "./MB.png",
+  iconUrl = "<Placeholder for grain URL>",
   grainUrl = "<Placeholder for grain URL>",
   behindGradient,
   innerGradient,
