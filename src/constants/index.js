@@ -213,7 +213,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Portefolio 3D",
+    name: "Portfolio 3D",
     description:
       "Ce projet est un portfolio 3D réalisé avec React et Three.js. Je l’ai développé en suivant des tutoriels YouTube, pour approfondir mes connaissances de React tout en créant un site web moderne intégrant des objets 3D interactifs.",
     tags: [

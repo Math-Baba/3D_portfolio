@@ -33,7 +33,7 @@ const Contact = () => {
         {links.map((link, index) => (
           <ContactCard key={`link-${index}`} index={index} {...link} />
         ))}
-        <a href="/Mathieu_Baba_CV.pdf" download>
+        <a href="/BABA_Mathieu_CV.pdf" download>
           <button
             type="button"
             className="mt-8 bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mx-auto block"
