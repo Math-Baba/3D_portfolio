@@ -10,6 +10,7 @@ import Contact from "./Contact";
 import Loader from "./Loader";
 import DynamicIslandNavbar from "./DynamicIslandNavbar";
 import TechSphere from "./TechSphere";
+import Galerie from "./Galerie";
 
 export {
   Hero,
@@ -20,6 +21,7 @@ export {
   Tech,
   Experience,
   Works,
+  Galerie,
   Feedbacks,
   Contact,
   Loader,

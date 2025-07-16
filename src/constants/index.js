@@ -48,6 +48,10 @@ import {
   MySQL,
   Postgre,
   staruml,
+  prix_ai4good,
+  prix_ai4good2,
+  prix_webcup,
+  prix_webcup2
 } from "../assets";
 
 export const navLinks = [
@@ -62,6 +66,10 @@ export const navLinks = [
   {
     id: "project",
     title: "Projets",
+  },
+  {
+    id: "galerie",
+    title: "Galerie",
   },
   {
     id: "contact",
@@ -310,4 +318,23 @@ const links = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, links };
+const images = [
+  {
+    src: prix_ai4good,
+    description: "Concours AI4GOOD 2025",
+  },
+  {
+    src: prix_ai4good2,
+    description: "Concours AI4GOOD - 3e prix catégorie Game Master",
+  },
+  {
+    src: prix_webcup,
+    description: "Hackathon de la 24h By Webcup - 2e prix régional",
+  },
+  {
+    src: prix_webcup2,
+    description: "Hackathon de la 24h By Webcup 2025",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, links, images };
