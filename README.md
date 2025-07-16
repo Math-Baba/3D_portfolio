@@ -1,12 +1,24 @@
-# React + Vite
+# Portfolio 3D
+Ce portfolio réalisé en React et Three.js tout en intégrant des composants de plusieurs plateformes dans le but d'approfondir mes connaissances en React. Afin d'avoir une compréhension approfondi, j'ai suivi quelques tutoriels Youtube notamment ceux de JavaScript Mastery.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="src/assets/Portfolio_3D.png" />
+</p>
 
-Currently, two official plugins are available:
+## Stacks utilisées
+* React
+* Three.js
+* Framer Motion
+* Tailwind CSS
+* React Three Fiber
+* Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Ressources complémentaires:
+- [JavaScript Mastery]-(https://www.youtube.com/@javascriptmastery)
+- [CodePen](https://codepen.io/trending)
+- [React Bits](https://reactbits.dev/)
+- [Ready Player Me](https://readyplayer.me/fr)
+- [Mixamo](https://www.mixamo.com/)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Auteur
+**Math-Baba** - [GitHub](https://github.com/Math-Baba)
