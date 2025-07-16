@@ -17,7 +17,7 @@ const ContactCard = ({ logo, name }) => (
       />
     </div>
     <p className="text-xs sm:text-base">{name}</p>
-    <div className="flex-grow flex justify-end text-xl sm:text-2xl md:text-3xl">
+    <div className="hidden md:flex flex-grow justify-end text-3xl">
       <CopyIcon textToCopy={name} />
     </div>
   </div>
