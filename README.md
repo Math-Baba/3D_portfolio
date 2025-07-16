@@ -14,7 +14,7 @@ Ce portfolio réalisé en React et Three.js tout en intégrant des composants de
 * Vite
 
 ## Ressources complémentaires:
-- [JavaScript Mastery]-(https://www.youtube.com/@javascriptmastery)
+- [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)
 - [CodePen](https://codepen.io/trending)
 - [React Bits](https://reactbits.dev/)
 - [Ready Player Me](https://readyplayer.me/fr)
