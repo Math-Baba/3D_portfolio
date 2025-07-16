@@ -5,6 +5,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { links } from "../constants";
 import { ProfileCard } from "./canvas";
+import { CopyIcon } from "./canvas";
 
 const ContactCard = ({ logo, name }) => (
   <div className="flex items-center gap-4 bg-primary rounded-xl shadow-lg px-5 py-4 mt-3">
@@ -16,6 +17,9 @@ const ContactCard = ({ logo, name }) => (
       />
     </div>
     <p className="text-xs sm:text-base">{name}</p>
+    <div className="flex-grow flex justify-end text-3xl">
+      <CopyIcon textToCopy={name} />
+    </div>
   </div>
 );
 

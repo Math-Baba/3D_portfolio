@@ -280,7 +280,8 @@ const ProfileCardComponent = ({
                     <div className="pc-status">{status}</div>
                   </div>
                 </div>
-                <button
+                <a
+                  href="mailto:mathieu.rl.baba@gmail.com"
                   className="pc-contact-btn"
                   onClick={handleContactClick}
                   style={{ pointerEvents: "auto" }}
@@ -288,7 +289,7 @@ const ProfileCardComponent = ({
                   aria-label={`Contact ${name || "user"}`}
                 >
                   {contactText}
-                </button>
+                </a>
               </div>
             )}
           </div>
