@@ -64,6 +64,7 @@ import prix_ai4good from "./galerie/prix_ai4good.jpeg";
 import prix_ai4good2 from "./galerie/prix_ai4good2.jpeg";
 import prix_webcup from "./galerie/prix_webcup.jpeg";
 import prix_webcup2 from "./galerie/prix_webcup2.jpeg";
+import prix_webcup3 from "./galerie/prix_webcup3.jpg";
 
 export {
   logo,
@@ -124,5 +125,6 @@ export {
   prix_ai4good,
   prix_ai4good2,
   prix_webcup,
-  prix_webcup2
+  prix_webcup2,
+  prix_webcup3,
 };
