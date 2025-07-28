@@ -1,11 +1,7 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import logo from "./logo.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -33,19 +29,16 @@ import Postgre from "./tech/Postgre.png";
 import staruml from "./tech/staruml.png";
 import ROS2 from "./tech/ROS2.png";
 import postman from "./tech/postman.png";
+import n8n from "./tech/n8n.png";
+import choregraphe from "./tech/choregraphe.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import ACENSI from "./company/ACENSI.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import portfolio from "./portfolio.png";
-import webcup from "./webcup.png";
-import NAO from "./NAO.jpg"
+
+import portfolio from "./projet/portfolio.png";
+import webcup from "./projet/webcup.png";
+import NAO from "./projet/NAO.jpg";
+import jobpilot from "./projet/jobpilot.png";
 
 import gmail from "./gmail.png";
 import phone from "./phone.png";
@@ -67,21 +60,19 @@ import prix_webcup2 from "./galerie/prix_webcup2.jpeg";
 import prix_webcup3 from "./galerie/prix_webcup3.jpg";
 
 export {
-  logo,
   ACENSI,
   MB,
   favicon,
+  logo,
   code,
   avatar,
-  backend,
   webcup,
   NAO,
+  jobpilot,
   portfolio,
-  creator,
-  mobile,
-  web,
   github,
   springboot,
+  choregraphe,
   arduino,
   postman,
   Postgre,
@@ -108,14 +99,8 @@ export {
   reactjs,
   redux,
   tailwind,
+  n8n,
   typescript,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   phone,
   gmail,
   linkedin,

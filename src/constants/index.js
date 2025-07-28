@@ -1,28 +1,12 @@
 import js from "@eslint/js";
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   github,
   gmail,
   phone,
@@ -41,7 +25,9 @@ import {
   PHP,
   webcup,
   postman,
+  n8n,
   NAO,
+  choregraphe,
   arduino,
   ROS2,
   springboot,
@@ -51,7 +37,8 @@ import {
   prix_ai4good,
   prix_ai4good2,
   prix_webcup,
-  prix_webcup2
+  prix_webcup2,
+  jobpilot
 } from "../assets";
 
 export const navLinks = [
@@ -172,6 +159,14 @@ const technologies = [
   {
     name: "star UML",
     icon: staruml,
+  },
+  {
+    name: "n8n",
+    icon: n8n,
+  },
+  {
+    name: "Choregraphe",
+    icon: choregraphe,
   }
 ];
 
@@ -185,7 +180,7 @@ const experiences = [
     points: [
       "Collaboration avec une équipe composé de 7 stagiaires, un tech lead et une cheffe de projet",
       "Participation dans la conception d'un logiciel CRM ( Customer Relationship Manager) sur la partie Campaign",
-      "Développement en Spring boot pour la partie Back-end (CRUD, API Rest, Search & Filter) + test avec Postman",
+      "Développement en Spring boot pour la partie Back-end (CRUD, API Rest, Search & Filter) + test d'intégration",
       "Développement en Angular, sur un template établi, pour la partie front-end (Intégration du CRUD, Search, Filter & Ajout de Export as PDF/Excel)",
       "Contribution et gestion de version avec Git/Github"
     ],
@@ -296,6 +291,35 @@ const projects = [
     ],
     image: NAO,
     source_code_link: "https://github.com/Math-Baba/Projet_Robotique_Nao",
+  },
+  {
+    name: "JobPilot",
+    description:
+      "Ce projet est un prototype d'une application web FullStack permettant aux étudiants et chercheurs d’emploi de gérer leurs candidatures (CRUD, recherche, filtres). Automatisation de notifications et tâches via n8n.",
+    tags: [
+      {
+        id: 1,
+        name: 'react',
+        path: reactjs,
+      },
+      {
+        id: 2,
+        name: 'typescript',
+        path: typescript,
+      },
+      {
+        id: 3,
+        name: 'spring boot',
+        path: springboot,
+      },
+      {
+        id: 4,
+        name: 'n8n',
+        path: n8n,
+      },
+    ],
+    image: jobpilot,
+    source_code_link: "https://github.com/Math-Baba/Front-end_JobPilot_App.git",
   },
 ];
 

@@ -28,9 +28,9 @@ const About = () => {
 
             <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-8'>
                 Je suis actuellement étudiant en 3e année de licence en Informatique appliquée. 
-                J’adore apprendre en expérimentant, que ce soit en codant des projets, en testant de nouvelles techs ou en explorant des idées nouvelles grâce à des tutoriels Youtube ou via les actualités.
-                Je suis assez sportif, je pratique le basketball en m'entraînant en club et
-                comme tout le monde, je suis du genre à sortir assez souvent faire des randonnées, des sorties en pleine nature et même tester de nouvelles activités.
+                J’adore apprendre en expérimentant, que ce soit en codant des projets, en testant de nouvelles techs ou en explorant des idées nouvelles grâce à des tutoriels ou via les actualités.
+                Je suis assez sportif, je pratique le basketball en club et
+                comme tout le monde, je suis du genre à sortir assez souvent pour faire des randonnées, des sorties en pleine nature et même tester de nouvelles activités.
                 A l'île Maurice, c'est pas ce qui manque.
             </motion.p>
             <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-8 font-bold flex flex-wrap justify-center'>
