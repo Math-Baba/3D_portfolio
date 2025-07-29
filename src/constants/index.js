@@ -161,10 +161,6 @@ const technologies = [
     icon: staruml,
   },
   {
-    name: "n8n",
-    icon: n8n,
-  },
-  {
     name: "Choregraphe",
     icon: choregraphe,
   }
@@ -295,7 +291,7 @@ const projects = [
   {
     name: "JobPilot",
     description:
-      "Ce projet est un prototype d'une application web FullStack permettant aux étudiants et chercheurs d’emploi de gérer leurs candidatures (CRUD, recherche, filtres). Automatisation de notifications et tâches via n8n.",
+      "Ce projet est un prototype d'une application web FullStack permettant aux étudiants et chercheurs d’emploi de gérer leurs candidatures (CRUD, recherche, filtres).",
     tags: [
       {
         id: 1,
@@ -311,11 +307,6 @@ const projects = [
         id: 3,
         name: 'spring boot',
         path: springboot,
-      },
-      {
-        id: 4,
-        name: 'n8n',
-        path: n8n,
       },
     ],
     image: jobpilot,
