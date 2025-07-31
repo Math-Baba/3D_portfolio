@@ -291,7 +291,7 @@ const projects = [
   {
     name: "JobPilot",
     description:
-      "Ce projet est un prototype d'une application web FullStack permettant aux étudiants et chercheurs d’emploi de gérer leurs candidatures (CRUD, recherche, filtres).",
+      "Ce projet est un prototype d'une application web FullStack permettant aux étudiants et chercheurs d’emploi de gérer leurs candidatures (CRUD, recherche, filtres). Intégration d'un chatbot IA avec n8n.",
     tags: [
       {
         id: 1,
@@ -307,6 +307,11 @@ const projects = [
         id: 3,
         name: 'spring boot',
         path: springboot,
+      },
+      {
+        id: 4,
+        name: 'n8n',
+        path: n8n,
       },
     ],
     image: jobpilot,
