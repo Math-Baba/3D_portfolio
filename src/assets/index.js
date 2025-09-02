@@ -32,6 +32,7 @@ import postman from "./tech/postman.png";
 import n8n from "./tech/n8n.png";
 import choregraphe from "./tech/choregraphe.png";
 
+import AI4GOOD_LOGO from "./company/logo_ai4good.png";
 import ACENSI from "./company/ACENSI.png";
 
 
@@ -58,6 +59,7 @@ import prix_ai4good2 from "./galerie/prix_ai4good2.jpeg";
 import prix_webcup from "./galerie/prix_webcup.jpeg";
 import prix_webcup2 from "./galerie/prix_webcup2.jpeg";
 import prix_webcup3 from "./galerie/prix_webcup3.jpg";
+import atelier from "./galerie/atelier.jpg";
 
 export {
   ACENSI,
@@ -109,6 +111,8 @@ export {
   software,
   prix_ai4good,
   prix_ai4good2,
+  atelier,
+  AI4GOOD_LOGO,
   prix_webcup,
   prix_webcup2,
   prix_webcup3,

@@ -36,9 +36,11 @@ import {
   staruml,
   prix_ai4good,
   prix_ai4good2,
+  atelier,
   prix_webcup,
   prix_webcup2,
-  jobpilot
+  jobpilot,
+  AI4GOOD_LOGO
 } from "../assets";
 
 export const navLinks = [
@@ -181,6 +183,19 @@ const experiences = [
       "Contribution et gestion de version avec Git/Github"
     ],
   },
+  // {
+  //   title: "Mentor - AI4GOOD",
+  //   company_name: "AI4GOOD Maurice",
+  //   icon: AI4GOOD_LOGO,
+  //   iconBg: "#16263b",
+  //   date: "Août 2025 - Novembre 2025",
+  //   points: [
+  //     "Animation d’ateliers créatifs mêlant outils d’intelligence artificielle et techniques manuelles",
+  //     "Sensibilisation et formation du jeune public aux outils d’IA appliqués à la création visuelle et narrative.",
+  //     "Mise en place d’actions visant à engager et fidéliser la communauté (challenges, partage de prompts IA, portraits des participants, diffusion d’actualités).",
+  //     "Élaboration et mise en œuvre de stratégies de promotion pour les ateliers (affiches, vidéos courtes, publications sur les réseaux sociaux, diffusion sur WhatsApp, gestion des formulaires d’inscription).",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -354,6 +369,10 @@ const images = [
   {
     src: prix_webcup2,
     description: "Hackathon de la 24h By Webcup 2025",
+  },
+  {
+    src: atelier,
+    description: "Animation d'un Atelier Créatif IA - AI4GOOD",
   },
 ];
 
