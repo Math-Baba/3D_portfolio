@@ -55,7 +55,7 @@ import software from "./software.png";
 import MB from "./MB.png"
 
 import prix_ai4good from "./galerie/prix_ai4good.jpeg";
-import prix_ai4good2 from "./galerie/prix_ai4good2.jpeg";
+import prix_ai4good2 from "./galerie/prix_ai4good2.jpg";
 import prix_webcup from "./galerie/prix_webcup.jpeg";
 import prix_webcup2 from "./galerie/prix_webcup2.jpeg";
 import prix_webcup3 from "./galerie/prix_webcup3.jpg";
