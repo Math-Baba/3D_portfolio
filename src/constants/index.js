@@ -22,6 +22,7 @@ import {
   SQL,
   threejs,
   portfolio,
+  garage,
   PHP,
   webcup,
   postman,
@@ -331,6 +332,25 @@ const projects = [
     ],
     image: jobpilot,
     source_code_link: "https://github.com/Math-Baba/Front-end_JobPilot_App.git",
+  },
+  {
+    name: "Garage automatique",
+    description:
+      "Ce projet, développé en groupe d'étudiants et en C++ avec l'Arduino IDE, permet de contrôler automatiquement une porte de garage à l’aide d’un capteur d’empreinte digitale et de capteur infrarouge pour plus de sécurité.",
+    tags: [
+      {
+        id: 1,
+        name: 'Arduino',
+        path: arduino,
+      },
+      {
+        id: 2,
+        name: 'C++',
+        path: Cplus,
+      },
+    ],
+    image: garage,
+    source_code_link: "https://github.com/Math-Baba/Projet-garage-automatique.git",
   },
 ];
 

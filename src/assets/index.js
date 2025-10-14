@@ -40,6 +40,7 @@ import portfolio from "./projet/portfolio.png";
 import webcup from "./projet/webcup.png";
 import NAO from "./projet/NAO.jpg";
 import jobpilot from "./projet/jobpilot.png";
+import garage from "./projet/garage.png";
 
 import gmail from "./gmail.png";
 import phone from "./phone.png";
@@ -71,6 +72,7 @@ export {
   webcup,
   NAO,
   jobpilot,
+  garage,
   portfolio,
   github,
   springboot,
