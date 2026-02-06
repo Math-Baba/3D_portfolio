@@ -34,6 +34,7 @@ import choregraphe from "./tech/choregraphe.png";
 
 import AI4GOOD_LOGO from "./company/logo_ai4good.png";
 import ACENSI from "./company/ACENSI.png";
+import frci from "./company/frci.png";
 
 
 import portfolio from "./projet/portfolio.png";
@@ -64,6 +65,7 @@ import atelier from "./galerie/atelier.jpg";
 
 export {
   ACENSI,
+  frci,
   MB,
   favicon,
   logo,

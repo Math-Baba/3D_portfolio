@@ -41,7 +41,7 @@ import {
   prix_webcup,
   prix_webcup2,
   jobpilot,
-  AI4GOOD_LOGO
+  frci
 } from "../assets";
 
 export const navLinks = [
@@ -184,19 +184,21 @@ const experiences = [
       "Contribution et gestion de version avec Git/Github"
     ],
   },
-  // {
-  //   title: "Mentor - AI4GOOD",
-  //   company_name: "AI4GOOD Maurice",
-  //   icon: AI4GOOD_LOGO,
-  //   iconBg: "#16263b",
-  //   date: "Août 2025 - Novembre 2025",
-  //   points: [
-  //     "Animation d’ateliers créatifs mêlant outils d’intelligence artificielle et techniques manuelles",
-  //     "Sensibilisation et formation du jeune public aux outils d’IA appliqués à la création visuelle et narrative.",
-  //     "Mise en place d’actions visant à engager et fidéliser la communauté (challenges, partage de prompts IA, portraits des participants, diffusion d’actualités).",
-  //     "Élaboration et mise en œuvre de stratégies de promotion pour les ateliers (affiches, vidéos courtes, publications sur les réseaux sociaux, diffusion sur WhatsApp, gestion des formulaires d’inscription).",
-  //   ],
-  // },
+  {
+    title: "Stagiaire Développeur Logiciel",
+    company_name: "FRCI",
+    icon: frci,
+    iconBg: "#ffffff",
+    date: "Janvier 2026",
+    points: [
+      "Participation au développement d’une solution SharePoint Framework (SPFx),",
+      "Mise en place de l’environnement de développement avec Gulp",
+      "Conception de l’interface utilisateur (UI) avec React",
+      "Intégration des fonctionnalités SharePoint via les API avec Typescript",
+      "Déploiement de la solution dans un environnement test.",
+      "Envoi de mail automatisé avec Power Automate."
+    ],
+  },
 ];
 
 const testimonials = [
