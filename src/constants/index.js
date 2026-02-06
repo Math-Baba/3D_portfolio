@@ -41,7 +41,10 @@ import {
   prix_webcup,
   prix_webcup2,
   jobpilot,
-  frci
+  frci,
+  streamlit,
+  langchain,
+  islandguard
 } from "../assets";
 
 export const navLinks = [
@@ -286,6 +289,30 @@ const projects = [
     ],
     image: webcup,
     source_code_link: "https://github.com/Math-Baba/The_End_WebCup2025_Website",
+  },
+  {
+    name: "IslandGuard",
+    description:
+      "IslandGuard est une application web sur la résilience du climat à l'île Maurice développée en équipe de 4 lors du Hackathon Code4good de 24h. Développement en Python d'une carte interactive (GeoPandas, Folium, Streamlit) et intégration d'un modèle de LLM avec LangChain pour ggénérer des rapports d'analyse pour les rôles utilisateurs et autorités.",
+    tags: [
+      {
+        id: 1,
+        name: 'Python',
+        path: python,
+      },
+      {
+        id: 2,
+        name: 'streamlit',
+        path: streamlit,
+      },
+      {
+        id: 3,
+        name: 'langchain',
+        path: langchain,
+      },
+    ],
+    image: islandguard,
+    source_code_link: "https://github.com/kkk083/SoftCore_Code4Good",
   },
   {
     name: "Qui suis-je ?",

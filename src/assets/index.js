@@ -31,6 +31,8 @@ import ROS2 from "./tech/ROS2.png";
 import postman from "./tech/postman.png";
 import n8n from "./tech/n8n.png";
 import choregraphe from "./tech/choregraphe.png";
+import langchain from "./tech/langchain.png";
+import streamlit from "./tech/streamlit.png";
 
 import AI4GOOD_LOGO from "./company/logo_ai4good.png";
 import ACENSI from "./company/ACENSI.png";
@@ -42,6 +44,7 @@ import webcup from "./projet/webcup.png";
 import NAO from "./projet/NAO.jpg";
 import jobpilot from "./projet/jobpilot.png";
 import garage from "./projet/garage.png";
+import islandguard from "./projet/islandguard.png"; 
 
 import gmail from "./gmail.png";
 import phone from "./phone.png";
@@ -80,12 +83,15 @@ export {
   springboot,
   choregraphe,
   arduino,
+  streamlit,
+  langchain,
   postman,
   Postgre,
   MySQL,
   staruml,
   ROS2,
   menu,
+  islandguard,
   close,
   css,
   docker,
