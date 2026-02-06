@@ -27,8 +27,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
                         <p className='mt-2 text-secondary text-[14px]'>{description}</p>
                 </div>
 
-                <div className="relative w-80 h-20 rounded-lg shadow-lg overflow-hidden">
-                    <div className="absolute mt-6 flex items-center gap-2">
+                <div className="relative w-full h-20 rounded-lg shadow-lg overflow-hidden">
+                    <div className="absolute mt-6 flex items-center gap-2 flex-wrap">
                         {tags.map((tag, index) => (
                             <div key={index} className='rounded-lg px-2 py-2'>
                                 <img src={tag.path} alt={tag.name} className="w-8 h-8 object-contain"/>
