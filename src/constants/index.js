@@ -293,7 +293,7 @@ const projects = [
   {
     name: "IslandGuard",
     description:
-      "IslandGuard est une application web sur la résilience du climat à l'île Maurice développée en équipe de 4 lors du Hackathon Code4good de 24h. Développement en Python d'une carte interactive (GeoPandas, Folium, Streamlit) et intégration d'un modèle de LLM avec LangChain pour ggénérer des rapports d'analyse pour les rôles utilisateurs et autorités.",
+      "IslandGuard est une application web sur la résilience du climat à l'île Maurice développée en équipe de 4 lors du Hackathon Code4good de 24h.",
     tags: [
       {
         id: 1,
