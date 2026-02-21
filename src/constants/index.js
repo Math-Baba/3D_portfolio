@@ -315,9 +315,9 @@ const projects = [
     source_code_link: "https://github.com/kkk083/SoftCore_Code4Good",
   },
   {
-    name: "Qui suis-je ?",
+    name: "Expérience d'IA interactive NAO",
     description:
-      "Ce projet est un prototype visant intégrer un robot humanoïde, Nao, dans un cadre éducatif pour sensibiliser les enfants de 5 à 10 ans à la biodiversité marine de l’île Maurice. ",
+      "Projet robotique sur NAO combinant jeu QR, vision par ordinateur (visage, objets, gestes), contrôle manette PS3 et interaction vocale intelligente via LLM.",
     tags: [
       {
         id: 1,
