@@ -99,16 +99,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "PHP",
-    icon: PHP,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
-  },
-  {
-    name: "C",
-    icon: C,
   },
   {
     name: "C++",
@@ -283,8 +275,8 @@ const projects = [
       },
       {
         id: 5,
-        name: 'SQL',
-        path: SQL,
+        name: 'MySQL',
+        path: MySQL,
       },
     ],
     image: webcup,
@@ -326,9 +318,14 @@ const projects = [
       },
       {
         id: 2,
-        name: 'SQL',
-        path: SQL,
+        name: 'Postgre',
+        path: Postgre,
       },
+      {
+        id: 3,
+        name: 'Choregraphe',
+        path: choregraphe,
+      }
     ],
     image: NAO,
     source_code_link: "https://github.com/Math-Baba/Projet_Robotique_Nao",
