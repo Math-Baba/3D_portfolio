@@ -4,7 +4,7 @@ import { technologies } from "../constants";
 import { Orb } from "./canvas";
 
 const logos = technologies.map((tech) => (
-  <img key={tech.name} src={tech.icon} alt={tech.name} width={40} height={40} />
+  <img key={tech.name} src={tech.icon} alt={tech.name} width={40} height={40} loading="lazy" />
 ));
 
 const TechSphere = () => {

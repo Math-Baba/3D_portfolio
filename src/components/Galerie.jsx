@@ -36,6 +36,8 @@ const Galerie = () => {
               src={img.src}
               alt={img.description}
               className="rounded-xl max-h-[300px] object-contain"
+              loading="lazy"
+              decoding="async"
             />
             
             {/* Overlay centré */}

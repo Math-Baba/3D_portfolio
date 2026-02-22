@@ -11,7 +11,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
             <Tilt options={{max: 45, scale: 1, speed: 450,}} className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
                 <div className='relative w-full h-[230px]'>
-                    <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl'/>
+                    <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' loading="lazy" decoding="async"/>
                 </div>
 
                 <div className='absolute inset-0 flex justify-end m-3 card img_hover'>
@@ -31,7 +31,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
                     <div className="absolute mt-6 flex items-center gap-2 flex-wrap">
                         {tags.map((tag, index) => (
                             <div key={index} className='rounded-lg px-2 py-2'>
-                                <img src={tag.path} alt={tag.name} className="w-8 h-8 object-contain"/>
+                                <img src={tag.path} alt={tag.name} className="w-8 h-8 object-contain" loading="lazy"/>
                             </div>
                         ))}
                     </div>
