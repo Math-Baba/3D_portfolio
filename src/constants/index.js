@@ -158,10 +158,6 @@ const technologies = [
     name: "star UML",
     icon: staruml,
   },
-  {
-    name: "Choregraphe",
-    icon: choregraphe,
-  }
 ];
 
 const experiences = [
